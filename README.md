@@ -1,7 +1,7 @@
 ACLU Podcasts
 =============================
 
-<a href="www.kodi.tv">KODI</a> / XBMC / Firestick audio addon for <a href="https://aclu.org/podcast/podcast-at-liberty">At Liberty</a> - a weekly podcast from the <a href="www.ACLU.org">ACLU</a> that explores the biggest civil rights and civil liberties issues of the day.<br>
+<a href="www.kodi.tv">KODI</a> / XBMC / Firestick audio addon for <a href="https://aclu.org/podcast/podcast-at-liberty">At Liberty</a> - a weekly podcast from the <a href="www.ACLU.org">ACLU</a> that explores the biggest civil rights and civil liberties issues of the day, and the ACLU-PA / Civil Liberties Minute podcasts<br>
 
 <a href="https://aclu.org/podcast/podcast-at-liberty"><img src="https://www.aclu.org/files/podcast/podcast-at-liberty-landing-page-cover.jpg">
 
