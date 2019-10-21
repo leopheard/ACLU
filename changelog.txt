@@ -1,5 +1,8 @@
 __Version 1.0.0__
-
 1. Initial working version
 
+__Version 1.1.0__
+1. Added PA ACLU podcast
+2. Added Civil Liberties Minute
+3. Added artwork for these extras and expanded README
 

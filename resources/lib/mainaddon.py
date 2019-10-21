@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 def get_soup(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
-    print("type: ", type(soup1))
+    print("type: ", type(soup))
     return soup
 def get_soup2(url2):
     page = requests.get(url2)
@@ -55,7 +55,7 @@ def compile_playable_podcast(playable_podcast):
 
 def get_playable_podcast2(soup2):
     subjects = []
-    for content in soup.find_all('item'):
+    for content in soup2.find_all('item'):
         try:
             link = content.find('enclosure')
             link = link.get('url')
