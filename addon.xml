@@ -27,6 +27,12 @@
 			<screenshot>resources/media/2.jpg</screenshot>
 			<screenshot>resources/media/3.jpg</screenshot>
 			<screenshot>resources/media/4.jpg</screenshot>
+			<screenshot>resources/media/5.jpg</screenshot>
+			<screenshot>resources/media/6.jpg</screenshot>
+			<screenshot>resources/media/7.jpg</screenshot>
+			<screenshot>resources/media/8.jpg</screenshot>
+			<screenshot>resources/media/9.jpg</screenshot>
+			<screenshot>resources/media/10.jpg</screenshot>
 		</assets>
   </extension>
 </addon>

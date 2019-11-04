@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#30002"
-msgid "Speaking Freely With the ACLU-PA"
+msgid "ACLU-PA: Speaking Freely"
 msgstr ""
 
 msgctxt "#30001"
@@ -24,6 +24,34 @@ msgstr ""
 
 msgctxt "#30003"
 msgid "Civil Liberties Minute"
+msgstr ""
+
+msgctxt "#30004"
+msgid "ACLU-MD: ACLU of Maryland"
+msgstr ""
+
+msgctxt "#30005"
+msgid "ACLU-IL: Talking Liberties With The ACLU of Illinois"
+msgstr ""
+
+msgctxt "#30006"
+msgid "ACLU-WV: Civil Fights"
+msgstr ""
+
+msgctxt "#30007"
+msgid "ACLU-MN: Power To The Podcast"
+msgstr ""
+
+msgctxt "#30008"
+msgid "ACLU-OH: ACLU Ohio Audio"
+msgstr ""
+
+msgctxt "#30009"
+msgid "ACLU-CO: The Purple State Report"
+msgstr ""
+
+msgctxt "#30010"
+msgid "ACLU-NH: By The People, For The Podcast"
 msgstr ""
 
 # empty string with id 32003
