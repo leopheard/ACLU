@@ -6,3 +6,11 @@ __Version 1.1.0__
 2. Added Civil Liberties Minute
 3. Added artwork for these extras and expanded README
 
+__Version 1.2.0__
+1. Added ACLU-MD: ACLU of Maryland
+2. Added ACLU-IL: Talking Liberties With The ACLU of Illinois
+3. Added ACLU-WV: Civil Fights
+4. Added ACLU-MN: Power To The Podcast
+5. Added ACLU-OH: ACLU Ohio Audio
+6. Added ACLU-CO: The Purple State Report
+7. Added ACLU-NH: By The People, For The Podcast

@@ -31,7 +31,7 @@ def main_menu():
    {
             'label': plugin.get_string(30004),
             'path': plugin.url_for('episodes4'),
-            'thumbnail': "https://static.libsyn.com/p/assets/a/3/6/5/a36538cb1437928e/clm_cover_600x600.jpg"},
+            'thumbnail': "https://i1.sndcdn.com/avatars-000678384755-61p8mq-original.jpg"},
         {
             'label': plugin.get_string(30005),
             'path': plugin.url_for('episodes5'),
@@ -47,7 +47,7 @@ def main_menu():
         {
             'label': plugin.get_string(30008),
             'path': plugin.url_for('episodes8'),
-            'thumbnail': "https://www.podbean.com/podcast-detail/szrfp-4baea/ACLU-of-Ohio-Audio-Podcast"},
+            'thumbnail': "http://www.acluohio.org/wp-content/uploads/powerpress/iTunesImage-883.jpg"},
         {
             'label': plugin.get_string(30009),
             'path': plugin.url_for('episodes9'),
@@ -61,7 +61,7 @@ def main_menu():
 
 @plugin.route('/episodes1/')
 def episodes1():
-    soup1 = mainaddon.get_soup(url1)
+    soup1 = mainaddon.get_soup1(url1)
     playable_podcast1 = mainaddon.get_playable_podcast1(soup1)
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
     return items

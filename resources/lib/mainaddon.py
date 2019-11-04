@@ -65,7 +65,7 @@ def get_playable_podcast1(soup1):
 #            desc = content.find('description')
 #            desc = desc.get_text()
             thumbnail = content.find('itunes:image')
-            thumbnail = desc.get_text('href')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -100,7 +100,7 @@ def get_playable_podcast2(soup2):
 #            desc = content.find('description')
 #            desc = desc.get_text()
             thumbnail = content.find('itunes:image')
-            thumbnail = desc.get_text('href')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -135,7 +135,7 @@ def get_playable_podcast3(soup3):
 #            desc = content.find('description')
 #            desc = desc.get_text()
             thumbnail = content.find('itunes:image')
-            thumbnail = desc.get_text('href')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -167,6 +167,8 @@ def get_playable_podcast4(soup4):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+            thumbnail = content.find('itunes:image')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -196,6 +198,8 @@ def get_playable_podcast5(soup5):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+            thumbnail = content.find('itunes:image')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -225,12 +229,14 @@ def get_playable_podcast6(soup6):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "http://cast.rocks/hosting/8054/feeds/APOR4.jpg?e=b912433",
         }
         subjects.append(item)
     return subjects
@@ -254,6 +260,8 @@ def get_playable_podcast7(soup7):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+            thumbnail = content.find('itunes:image')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -283,12 +291,14 @@ def get_playable_podcast8(soup8):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "http://www.acluohio.org/wp-content/uploads/powerpress/iTunesImage-883.jpg",
         }
         subjects.append(item) 
     return subjects
@@ -312,6 +322,8 @@ def get_playable_podcast9(soup9):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+            thumbnail = content.find('itunes:image')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
@@ -341,6 +353,8 @@ def get_playable_podcast10(soup10):
             print("\n\nLink: ", link)
             title = content.find('title')
             title = title.get_text()
+            thumbnail = content.find('itunes:image')
+            thumbnail = thumbnail.get('href')
         except AttributeError:
             continue
         item = {
